@@ -1,0 +1,56 @@
+Friend Requests
+4l0IW4zdrGO0CybkWu4LlGul5CK2
+kklOzeQowxZYnEhP5WivagT0JH23
+request_type: 
+"sent"
+GIQXpdimK5NqpMehpCMLKZ0cFk62
+kklOzeQowxZYnEhP5WivagT0JH23
+request_type: 
+"received"
+HBwwXtTrOsWLXoYVfubkzTTIkpq2
+kklOzeQowxZYnEhP5WivagT0JH23
+request_type: 
+"sent"
+kklOzeQowxZYnEhP5WivagT0JH23
+4l0IW4zdrGO0CybkWu4LlGul5CK2
+request_type: 
+"received"
+GIQXpdimK5NqpMehpCMLKZ0cFk62
+request_type: 
+"sent"
+HBwwXtTrOsWLXoYVfubkzTTIkpq2
+request_type: 
+"received"
+Users
+4l0IW4zdrGO0CybkWu4LlGul5CK2
+status: 
+"😆😆😆"
+uid: 
+"4l0IW4zdrGO0CybkWu4LlGul5CK2"
+username: 
+"isurika  thenuwani "
+GIQXpdimK5NqpMehpCMLKZ0cFk62
+status: 
+"Working"
+uid: 
+"GIQXpdimK5NqpMehpCMLKZ0cFk62"
+username: 
+"Aruna Kumara"
+HBwwXtTrOsWLXoYVfubkzTTIkpq2
+status: 
+"Student"
+uid: 
+"HBwwXtTrOsWLXoYVfubkzTTIkpq2"
+username: 
+"Nishadi Kaushalya"
+kklOzeQowxZYnEhP5WivagT0JH23
+status: 
+"bla bla bla"
+uid: 
+"kklOzeQowxZYnEhP5WivagT0JH23"
+user image: 
+"com.google.android.gms.tasks.zzu@5cd7ea0"
+userimage: 
+"com.google.android.gms.tasks.zzu@922fef7"
+username: 
+"EMTD"

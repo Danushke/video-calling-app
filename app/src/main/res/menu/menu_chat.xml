@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.desirecode.videocallingapp.messages.PrivateChatActivity">
+
+
+    <item
+        android:id="@+id/action_block_user"
+        android:orderInCategory="100"
+        android:title="@string/action_block_user"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/video_call_img_btn"
+        android:icon="@drawable/video_call_50px2"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/voice_call_img_btn"
+        android:icon="@drawable/phone_50px"
+        app:showAsAction="ifRoom"/>
+
+</menu>

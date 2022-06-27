@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/message_profile_image"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        />
+
+    <RelativeLayout
+        android:id="@+id/receiver_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="55dp"
+        android:padding="8dp"
+        android:background="@drawable/receiver_message_layout">
+
+        <TextView
+            android:id="@+id/receiver_message_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is the receiver side"
+            android:layout_marginRight="15dp"/>
+
+        <TextView
+            android:id="@+id/receiver_date_time_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/receiver_message_tv"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="bottom"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="1dp"
+
+            android:text="09.12 AM"
+            android:textSize="10dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/sender_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="55dp"
+        android:padding="8dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="@+id/received_message_tv"
+        android:background="@drawable/sender_message_layout"
+        tools:ignore="UnknownId"
+        android:layout_alignParentRight="true">
+
+        <TextView
+            android:id="@+id/sender_message_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is the sender side"
+            android:layout_toStartOf="@+id/sender_date_time_tv"
+            android:layout_toLeftOf="@+id/sender_date_time_tv"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:id="@+id/sender_date_time_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/sender_message_tv"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="bottom"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="1dp"
+            android:text="Date"
+            android:textSize="10dp" />
+
+    </RelativeLayout>
+</RelativeLayout>
+

@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.desirecode.videocallingapp.MainActivity">
+    <item
+        android:id="@+id/action_profile"
+        android:orderInCategory="100"
+        android:title="@string/action_profile"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_block"
+        android:orderInCategory="100"
+        android:title="@string/action_block_list"
+        app:showAsAction="never" />
+
+    <item
+    android:id="@+id/action_send_request"
+    android:orderInCategory="100"
+    android:title="@string/action_send_request"
+    app:showAsAction="never" />
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:title="@string/action_logout"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/friend_request"
+        android:icon="@drawable/user_account_48px"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/unknown_message"
+        android:icon="@drawable/reply_48px"
+        app:showAsAction="ifRoom"/>
+
+</menu>
